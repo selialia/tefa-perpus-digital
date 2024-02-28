@@ -26,25 +26,25 @@
                       <option value="XII">XII</option>
                     </select>
                   </div>
-              <div class="mb-4">
-                <select class="form-control from-control-lg form-select rounded-5 mb-2">
+                  <div class="col-md-4">
+               <select class="form-control-lg form-select rounded-5 mb-2">
                       <option value="">JURUSAN</option>
                       <option value="PPLG">PPLG</option>
-                      <option value="TJKT">TKJT</option>
+                      <option value="TJKT">TJKT</option>
                       <option value="TSM">TSM</option>
                       <option value="DKV">DKV</option>
                       <option value="TOI">TOI</option>
-                </select>
-              </div>
-              <div class="mb-4">
-              <select class="form-control from-control-lg form-select rounded-5 mb-2">
+                    </select>
+                  </div>
+                  <div class="col-md-4">
+               <select class="form-control-lg form-select rounded-5 mb-2">
                       <option value="">KELAS</option>
                       <option value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
                       <option value="4">4</option>
                     </select>
-                  </div>               
+                  </div>      
                  </div>
               </div>
               <div class="mb-3">
@@ -55,7 +55,8 @@
                       <option value="kembalikan">Kembalikan Buku</option>
                 </select>
               </div>
-              <button type="submit" class="btn btn-dark btn-lg rounded-5 px-5">KIRIM</button>
+              <nuxt-link to="../pengunjung"><button type="submit" class="btn btn-lg rounded-5 px-5 bg-success text-white">KIRIM</button></nuxt-link>
+              <nuxt-link to="../"><button type="submit" class="btn btn-lg rounded-5 px-5 bg-success text-white" style="float: right;">KEMBALI</button></nuxt-link>
           </div>
         </form>
       </div>
