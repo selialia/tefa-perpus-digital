@@ -29,7 +29,7 @@
         <nuxt-link to="/pengunjung">
           <div class="card bg-warning rounded-5">
             <div class="card-body">
-              <h4 class="jumlah"> 3 Pengunjung</h4>
+              <h4 class="jumlah">3 Pengunjung</h4>
             </div>
           </div>
         </nuxt-link>
@@ -45,6 +45,9 @@
         </nuxt-link>
       </div>
     </div>
+    <div>
+      <Chart />
+    </div>
   </div>
 </template>
 
@@ -55,26 +58,25 @@
 }
 .card.bg-pengunjung {
   margin-top: 5%;
-  background-image: url('../assets/img/bg-home-kunjungan.jpeg');
+  background-image: url("../assets/img/bg-home-kunjungan.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 90%;
+  opacity: 70%;
 }
 .card.bg-buku {
   margin-top: 5%;
-  background: url('../assets/img/bg-home-cari-buku.jpg');
+  background: url("../assets/img/bg-home-cari-buku.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 90%;
+  opacity: 70%;
 }
-h2{
-  color:black;
+h2 {
+  color: black;
   font: arial;
-  
 }
-h1{
+h1 {
   color: white;
 }
 .card.bg-warning {
@@ -87,13 +89,13 @@ h1{
   color: black;
   margin-left: 50px;
 }
-h5{
+h5 {
   text-align: center;
   margin-top: 80px;
   font-size: 300%;
   color: black;
 }
-h4{
+h4 {
   text-align: center;
   margin-top: 80px;
   font-size: 300%;
