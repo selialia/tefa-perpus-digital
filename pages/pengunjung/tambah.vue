@@ -151,7 +151,7 @@ const form = ref({
 });
 
 const kirimData = async () => {
-  console.log(form.value)
+  console.log(form.value);
   const { error } = await supabase.from("pengunjung").insert([form.value]);
   if (!error) navigateTo("/pengunjung");
 };
